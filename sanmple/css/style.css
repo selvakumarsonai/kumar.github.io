@@ -1,0 +1,164 @@
+/*----------------------------------------------------------------------------- 
+
+freshCloud
+
+Screen Stylesheet 
+
+version:   	1.0 
+date:      	09/22/11 
+author:		freshline
+email:     	support@version-four.com 
+website:   	http://www.version-four.com
+-----------------------------------------------------------------------------*/
+
+/******************************
+	- BASICS -
+*******************************/
+.description {
+ font-family: 'Istok Web', sans-serif;
+ font-size: 13px;
+ color:#505050;  
+ line-height:1.5;
+
+}
+
+.titlelogo {
+	background-image:url(../images/sitelogo.html);
+	background-repeat:no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:35px;
+	margin-top:20px;
+	margin-bottom:-5px;
+	display:block;
+	width:250px;
+	height:98px;
+}
+
+
+/******************************
+	- DIVIDERS -
+******************************/
+
+.content_divider{
+	width:900px;
+	height:10px;
+	background:url(../images/assets/content_separator.html) repeat-x;	
+	margin-top:60px;
+	margin-bottom:60px;
+}
+
+.verysmall_spacer{
+	clear: both;
+	height: 5px;
+	width: 100%;
+}
+.small_spacer{
+	clear: both;
+	height: 10px;
+	width: 100%;
+}
+.medium_spacer{
+	clear: both;
+	height: 20px;
+	width: 100%;
+}
+.big_spacer{
+	clear: both;
+	height: 30px;
+	width: 100%;
+}
+
+.verybig_spacer{
+	clear: both;
+	height: 60px;
+	width: 100%;
+}
+
+.small_spacer_negative{
+	clear: both;
+  	margin-bottom:-10px;
+  	width:100%;
+}
+.medium_spacer_negative{
+	clear: both;
+  	margin-bottom:-20px;
+  	width:100%;
+}
+.big_spacer_negative{
+	clear: both;
+  	margin-bottom:-30px;
+  	width:100%;
+}
+
+
+
+/*******************************
+	-	CONTENT WRAPPING    -
+********************************/
+#content_wrap {
+	clear:both;
+	margin-top:0px;		
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;	
+	height:auto;	
+	background-color:#fff;
+	padding-top:20px;		
+	-webkit-box-shadow: 0px -10px 25px -15px #000;
+	-moz-box-shadow: 0px -10px 25px -15px #000;
+	box-shadow: 0px -10px 25px -15px #000; 
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+}
+
+/*******************************
+	-	CONTENT BLOCKS    -
+********************************/
+.full,.one_half, .one_third, .two_third,.two_fourth, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth{
+	margin-right: 2%; position:relative; float:left; text-align:left;
+}
+.one_half{ width:49%; }
+.one_third{width:32%;}
+.one_fourth{width:23.5%; }
+.one_fifth{width: 18.4%;}
+.one_sixth {width: 15%;}
+
+.two_third{width: 64%;}
+.two_fourth {width: 47%;}
+.two_fifth {width: 36.8%;}
+.two_sixth {width: 30%;}
+
+.three_fourth{width:70.5%;}
+.three_fifth {width: 55.2%;}
+.three_sixth {width: 45%;}
+
+.four_fifth {width: 73.6%;}
+.four_sixth {width: 60%;}
+
+.five_sixth {width: 75%;}
+.last{ margin-right:0 !important; clear:right; }
+
+
+
+.theme-title{ 
+	font-family: 'Istok Web', sans-serif;
+	font-size: 26px;	
+	margin-top: 30px;
+	margin-bottom:0px;	
+	color:#505050;	
+}
+
+.theme-title2{ 
+	font-family: 'Istok Web', sans-serif;
+	font-size: 20px;	
+	margin-top: -5px;
+	font-style:italic; 
+	margin-bottom:30px;	
+	color:#505050;	
+}
